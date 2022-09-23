@@ -1,0 +1,14 @@
+.main-div p{
+    cursor: pointer;
+}
+.activ{
+    color: red;
+}
+.text{
+    display: none;
+}
+.activ-p{
+
+    display: block;
+
+}

@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow-x: hidden;
+    height: 2000px;
+}
+.toggle{
+    width: 100px;
+    height: 50px;
+    background-color: chocolate;
+    position: absolute;
+    top: 80px;
+    z-index: 1;
+}
+.nav{
+    width: 300px;
+    height: 100vh;
+    background-color: blueviolet;
+    position: absolute;
+    top: 0;
+    right: -300px;
+    /* display: none; */
+    transition: 1s;
+    z-index: 3;
+}
+.on{
+    /* display: block; */
+    right: 0;
+    transition: 1s;
+}
+
+/* //stiluri pt scroll */
+
+.header{
+    height: 80px;
+    width: 100%;
+    background-color: cadetblue;
+    position: fixed;
+    z-index: 2;
+}
+.collor{
+    background-color: cornflowerblue;
+}
+
+.date{
+    margin-top: 200px;
+    border: 1px solid red;
+    position: absolute;
+    height: 200px;
+}
+.random-color{
+    position: absolute;
+    z-index: 4;
+    margin-top: 500px;
+    margin-left: 100px;
+    width: 200px;
+    height: 100px;
+    /* background-color: blueviolet; */
+}
