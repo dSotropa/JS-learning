@@ -1,0 +1,11 @@
+Salut
+<div *ngFor="let quiz of quizList">
+  <div class="title">{{ quiz?.question }}</div>
+  <div *ngFor="let answer of quiz?.answers">
+    <span (click)="amDatClick(answer.value)">{{ answer.label }}</span>
+  </div>
+</div>
+
+<button type="button" (click)="checkAnswers()">Submit</button>
+
+Rapsunsuri corecte: {{ correctAnswers }}
